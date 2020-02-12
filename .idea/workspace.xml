@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a6393e-ca3b-44b4-bbdb-dea85d3c3c14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PESEL/PeselGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PESEL/PeselGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PeselGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PeselGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +95,24 @@
       <workItem from="1581191862076" duration="11595000" />
       <workItem from="1581452692944" duration="3780000" />
       <workItem from="1581499637996" duration="3514000" />
-      <workItem from="1581527211018" duration="3734000" />
+      <workItem from="1581527211018" duration="3933000" />
     </task>
+    <task id="LOCAL-00001" summary="Pesel generator generuje pierwsze 6 cyfr pesel">
+      <created>1581531181978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581531181978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pesel generator generuje pierwsze 6 cyfr pesel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pesel generator generuje pierwsze 6 cyfr pesel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1581195188040">
@@ -122,22 +131,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581193400836" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581530922459">
+    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1581531199102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581530922459" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581530922459">
+    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581531199102" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581531203539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581530922459" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581530922459">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581531203539" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581531203539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581530922459" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581530922459">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581531203539" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581531203539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581530922459" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581531203539" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581531203539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581531203539" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581194224306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -178,5 +191,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1581193076811" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581531194618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581531194618" />
   </component>
 </project>
