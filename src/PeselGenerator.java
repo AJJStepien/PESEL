@@ -4,6 +4,100 @@ public class PeselGenerator {
 
     public void generujWszystkieMozliwePesele() throws IOException {
 
+        File tmp1, tmp2, peselBase;
+
+        tmp1 = new File("tmp1.txt");
+        tmp1.createNewFile();
+        StringBuilder sb = new StringBuilder();
+        FileWriter fw = new FileWriter(tmp1);
+        for (int y = 0; y < 100; y++) {       //generuje 2 pierwsze cyfry pesel
+            switch (y) {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                    fw.write("0" + y + "\n");
+                    break;
+                default:
+                    ;
+                    fw.write(y + "\n");
+                    break;
+            }
+        }
+        fw.close();
+        System.out.println("Postęp 2/11");
+
+        tmp2 = new File("tmp2.txt");   //tmp2 wskazuje na plik tmp2.txt
+        tmp2.createNewFile();                   //  tworzy nowy plik jeśli nie instnieje
+        fw = new FileWriter(tmp2);              //fw pozwala pisać we wskazanym pliku
+        FileReader fr = new FileReader("tmp1.txt");    //wskazuje plik z którego będziemy czytać
+        BufferedReader br = new BufferedReader(fr);             //posiada metode do ekonomicznego czytania z pliku linia po linii
+
+        for (int y = 0; y < 100; y++) {
+            String year = br.readLine();
+            for (int m = 0; m < 93; m++) {
+                switch (m) {
+                    case 0:
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:
+                        fw.write(year + "0" + m + "\n");
+                        break;
+                    default:
+                        ;
+                        fw.write(year + m + "\n");
+                        break;
+                }
+            }
+        }
+        tmp1.delete();
+        fw.close();
+        System.out.println();
+        System.out.println("Postęp 4/11");
+
+        tmp1 = new File("tmp1.txt");
+        tmp1.createNewFile();
+        fw = new FileWriter(tmp1);              //fw pozwala pisać we wskazanym pliku
+        fr = new FileReader("tmp2.txt");    //wskazuje plik z którego będziemy czytać
+        br = new BufferedReader(fr);
+
+        for (int ym = 0; ym < 9300; ym++) {
+            String yearAndMonth = br.readLine();
+            for (int d = 1; d < 32; d++) {
+                switch (d) {
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:
+                        fw.write(yearAndMonth + "0" + d + "\n");
+                        break;
+                    default:
+                        ;
+                        fw.write(yearAndMonth + d + "\n");
+                        break;
+                }
+            }
+        }
+        tmp2.delete();
+        fw.close();
+        System.out.println("Postep 6/11");
         /*
         //
         //        stworz plik1, plik2, plik3, plik4, plik5, plik6, plik7, peselBase
